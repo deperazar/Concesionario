@@ -50,7 +50,7 @@ public class Pizza {
         a.setprice(32.99);
         System.out.println(a.gettoppings() +" "+ a.getdiameter()+ " "  + a.getprice());
         
-        Pizza [] pizzas= new Pizza[10];
+        Pizza [] pizzas= new Pizza[2];
         
         for(int i=0;i<2;i++){
             pizzas[i]=new Pizza();
@@ -63,7 +63,7 @@ public class Pizza {
             
         }
         
-        for(int j=0;j<10;j++){
+        for(int j=0;j<2;j++){
             System.out.println("Pizza:"+j+" "+pizzas[j].gettoppings());
             System.out.println("Pizza:"+j+" "+pizzas[j].getdiameter());
             System.out.println("Pizza:"+j+" "+pizzas[j].getprice());
