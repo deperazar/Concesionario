@@ -14,7 +14,7 @@ public class Factura {
     private ArrayList<Producto> b;
     
     public Factura(int id){
-        this.b=new ArrayList<>(id);
+        this.b=new ArrayList<>();
     }
     
     public void adicionar(Producto p){
